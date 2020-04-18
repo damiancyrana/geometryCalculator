@@ -18,30 +18,30 @@ while True:
     if choice == Figures_Menu.Rectangle:
         a = float(input("Side a = "))
         b = float(input("Side b = "))
-        print("Rectangle Area  =", calculations.rectangle(a, b))
+        print("Rectangle Area  =", calculations_functions.rectangle(a, b))
 
     # square
     elif choice == Figures_Menu.Square:
         a = float(input("Side a = "))
-        print("Square Area  =", calculations.square(a))
+        print("Square Area  =", calculations_functions.square(a))
 
     # triangle
     elif choice == Figures_Menu.Triangle:
         a = float(input("Base a = "))
         h = float(input("Height h = "))
-        print("Triangle Area =", calculations.triangle(a, h))
+        print("Triangle Area =", calculations_functions.triangle(a, h))
 
     # trapezoid
     elif choice == Figures_Menu.Trapezoid:
         a = float(input("Base a = "))
         b = float(input("Base b = "))
         h = float(input("Height h = "))
-        print("Triangle Area =", calculations.trapezoid(a, b, h))
+        print("Triangle Area =", calculations_functions.trapezoid(a, b, h))
 
     # circle
     elif choice == Figures_Menu.Circle:
         r = float(input("Radius r = "))
-        print("Circle Area  =", calculations.circle(r))
+        print("Circle Area  =", calculations_functions.circle(r))
 
     # Instruction ending the program
     elif choice == 6:
